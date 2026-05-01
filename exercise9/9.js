@@ -3,6 +3,7 @@
 // muéstralos con console.log.
 
 let colores = (prompt("ingresa tus colores"));
+
 let array = [];
 array.push(colores);
 console.log(colores);
