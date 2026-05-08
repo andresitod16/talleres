@@ -10,9 +10,11 @@
 
 const aleatorio = Math.floor(Math.random()*10) + 1 ;
 
+
 let adivinanza = Number(prompt("adivina el numero del 1-10"));
 if (adivinanza == aleatorio){
 console.log ("ganaste")
 } else {
     console.log ("perdiste el numero es" + aleatorio);
 }
+
